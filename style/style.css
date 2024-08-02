@@ -2,7 +2,7 @@
 body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
                     font-optical-sizing: auto;
                     font-weight: 400;
-                    font-style: normal;}margin-left: 190px;
+                    font-style: normal;}
 .header{ background: linear-gradient(to bottom, #000000, #434343, #000000);}
 .nav{display: flex; justify-content: space-between; margin: 0 auto; max-width: 1440px; margin-top: 58px;}
 .nav-1{color: rgb(230, 83, 60);
@@ -25,13 +25,13 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
 
 .header-container{display: flex; justify-content: space-between; margin: 0 auto; max-width: 1440px;}
  
-.header-content{margin-top: 97px; max-width: 720px; margin-left: 190px;}
+.header-content{ max-width: 720px; margin-left: 190px;}
 .header-content h1{color: rgb(255, 255, 255);
                    font-size:78px;
-                    font-weight: 900;  margin-left: 0px;}
+                    font-weight: 900; margin-top: 97px;}
 .header-content p{color: rgba(255, 255, 255, 0.5);
                    font-size: 16px;
-                    font-weight: 400;  margin-left: px;  margin-top: 0px;}
+                    font-weight: 400; margin-top: 0px;}
   .header-button-container{margin-left: 0px;}
 .button-1{max-width: 224px;
                         height: 54px;
@@ -50,9 +50,35 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
                           color: rgb(255, 255, 255);
                            font-size: 18px;
                            font-weight: 600; margin-left: 4px;}
-.header-img{margin-top: 44px; margin-right: 214px;
-            }
-.button-header-img-1{}
+.header-img{margin-top: 44px; margin-right: 214px; margin-bottom: 0px;
+            position: relative; }
+            .bttn{width: 193px;
+              height: 98px;
+              box-sizing: border-box;
+              border: 1px solid rgba(255, 255, 255, 0.1);
+              border-radius: 12px;
+              backdrop-filter: blur(20px);
+              background: rgba(255, 255, 255, 0.1);}
+              #Workout-videos{position: absolute; top: 21.5%; margin-left:-130px;}
+             
+                .bttn p{color: rgba(255, 255, 255, 0.65);
+               
+                font-size: 13px;
+                font-weight: 400; }
+                .bttn-2{width: 206px;
+                  height: 96px;
+                  box-sizing: border-box;
+                  border: 1px solid rgba(255, 255, 255, 0.1);
+                  border-radius: 12px;
+                  backdrop-filter: blur(20px);
+                  background: rgba(48, 48, 48, 0.54);}
+                  .bttn-2 p{color: rgba(239, 237, 232, 0.65);
+                  
+                    font-size: 16px;
+                    font-weight: 400; margin-left: 20px;}
+                  #video-tutorial{position: absolute; top: 72%; margin-left: -110px; display: flex;}
+                  
+                  #bttn-2-circle{margin-top: 23px; margin-left: 23px;}
 
 .first-section-container{max-width: 1044px; margin: 0 auto; margin-top: 129px;}
 .first-section-content{display: flex; flex-direction: column; justify-content: center; align-items: center;}
@@ -98,7 +124,7 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
 
   .forth-section-container{max-width: 1440px; background: rgb(34, 34, 34); margin: 0 auto; display: flex; justify-content: space-between;}
   .table-box{margin-bottom: 133px; margin-left: 189px;}
-  .table-box tr{}
+  
   .table-box th{color: rgb(255, 255, 255);
     border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
@@ -109,12 +135,69 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
    
     font-size: 14px;
     font-weight: 400; width: 155px; height: 48px; padding-left: 18px;}
+
+    .forth-section-calculate{}
+
+    .forth-section-calculate h1{color: rgb(255, 255, 255);
+      font-size: 28px;
+      font-weight: 900;}
+       
+      .fifth-section-container{max-width: 1060px; margin: 0 auto;}
+      .fifth-section-content{display: flex; flex-direction: column; justify-content: center; align-items: center;}
+      .fifth-section-content h2{color: rgb(255, 255, 255); margin-top: 88px;
+        font-size: 48px;
+        font-weight: 900;}
+         .fifth-section-img-box-container{max-width: 1060px; display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; background: rgba(255, 255, 255, 0.1); 
+        padding: 20px;border-radius: 18px; margin-top: 58px;  
+       }
+       
+       .fifth-section-img-box-container h2{color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: 900;}
+       .fifth-section-img-box-container p{color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 400;}
+
+        .fifth-section-img-box-1,
+      .fifth-section-img-box-2,
+      .fifth-section-img-box-3,
+      .fifth-section-img-box-4,
+      .fifth-section-img-box-5,
+      .fifth-section-img-box-6{max-width: 326.67px; ; position: relative; border-radius: 18px;
+        background: #000000;} 
+
+      .fifth-section-img-box-1 img,
+      .fifth-section-img-box-2 img,
+      .fifth-section-img-box-3 img,
+      .fifth-section-img-box-4 img,
+      .fifth-section-img-box-5 img,
+      .fifth-section-img-box-6 img{max-width: 326.67px;
+        height: 272px;  border-radius: 18px; mix-blend-mode: difference; 
+      }
+      
+
+        .fifth-section-img-box-1 img,
+        .fifth-section-img-box-2 img,
+        .fifth-section-img-box-3 img,
+        .fifth-section-img-box-4 img,
+        .fifth-section-img-box-5 img,
+        .fifth-section-img-box-6 img{width: 100%;} 
+
+        .fifth-section-text-1,
+        .fifth-section-text-2,
+        .fifth-section-text-3,
+        .fifth-section-text-4,
+        .fifth-section-text-5,
+        .fifth-section-text-6 {position: absolute;
+                                 top: 180px;  margin-left: 10px;}
+        hr{max-width: 1060px;}
    
 
 
                    
 
 @media screen and (max-width:577px)  {
+  body{overflow: hidden;}
   .nav-2{position: absolute; top: 70px;
      left: 0; flex-direction: column; text-align: center; gap: 0; overflow: hidden;}
       .nav-2 li{padding: 20px; }
@@ -124,11 +207,22 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
                      
                     .header-container{ flex-direction: column; justify-content: center; align-items: center ; height: 100%;}
                     .header-content{margin-top: 150px; margin-left: 0px;}
+                    .header-img{margin-left: 220px; margin-bottom: -129px;}
+                    #Workout-videos{top: 8%; margin-left: -155px;}
+                    #video-tutorial{top: 42%; margin-left: -40px;}
+                    
                     .first-section-box-container{flex-direction: column; justify-content: center; align-items: center;}
                     .second-section-container{flex-direction: column; justify-content: center; padding: 33px;}
                     .second-section-content{margin-left: 30px; padding-right: 85px;}
+                    .fifth-section-img-box-container{ display: grid; grid-template-columns: repeat(1,1fr); margin-left: 80px; margin-right: 80px;}
                     
-
+                    .fifth-section-img-box-1,
+                    .fifth-section-img-box-2,
+                    .fifth-section-img-box-3,
+                    .fifth-section-img-box-4,
+                    .fifth-section-img-box-5,
+                    .fifth-section-img-box-6{margin: 0 auto; width: 100%;}
+                   
                     
                             
                     
