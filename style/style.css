@@ -3,7 +3,7 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
                     font-optical-sizing: auto;
                     font-weight: 400;
                     font-style: normal;}
-.header{ background: linear-gradient(to bottom, #000000, #434343, #000000);}
+.header{ max-width: 1440px; margin: 0 auto;} 
 .nav{display: flex; justify-content: space-between; margin: 0 auto; max-width: 1440px; margin-top: 58px;}
 .nav-1{color: rgb(230, 83, 60);
                     font-size: 36px;
@@ -23,7 +23,7 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
 
 
 
-.header-container{display: flex; justify-content: space-between; margin: 0 auto; max-width: 1440px;}
+.header-container{display: flex; justify-content: space-between; margin: 0 auto; max-width: 1440px; background: linear-gradient(to bottom, #000000, #434343, #000000);}
  
 .header-content{ max-width: 720px; margin-left: 190px;}
 .header-content h1{color: rgb(255, 255, 255);
@@ -163,8 +163,8 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
       .fifth-section-img-box-3,
       .fifth-section-img-box-4,
       .fifth-section-img-box-5,
-      .fifth-section-img-box-6{max-width: 326.67px; ; position: relative; border-radius: 18px;
-        background: #000000;} 
+      .fifth-section-img-box-6{max-width: 326.67px; ; position: relative; border-radius: 18px; 
+       } 
 
       .fifth-section-img-box-1 img,
       .fifth-section-img-box-2 img,
@@ -172,8 +172,8 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
       .fifth-section-img-box-4 img,
       .fifth-section-img-box-5 img,
       .fifth-section-img-box-6 img{max-width: 326.67px;
-        height: 272px;  border-radius: 18px; mix-blend-mode: difference; 
-      }
+        height: 272px; border-radius: 18px; background-color: rgba(0,0,0,0.2); opacity: 0.75; }
+     
       
 
         .fifth-section-img-box-1 img,
@@ -222,6 +222,7 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
                     .fifth-section-img-box-4,
                     .fifth-section-img-box-5,
                     .fifth-section-img-box-6{margin: 0 auto; width: 100%;}
+                    
                    
                     
                             
