@@ -225,7 +225,7 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
                    
 
 @media screen and (max-width:577px)  {
-  body{overflow: hidden; }
+  body{}
   .nav-1{margin-left: 20px;}
   .nav-2{position: absolute; top: 70px;
      left: 0; flex-direction: column; text-align: center; gap: 0; overflow: hidden;}
@@ -234,26 +234,26 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
       
       
                      
-                    .header-container{ flex-direction: column; justify-content: center; align-items: center ; height: 100%;}
+                    .header-container{ flex-direction: column; justify-content: center; align-items: center ;}
                     .header-content{margin-top: 150px; margin-left: 0px;}
                     .header-img{margin-left: 220px; margin-bottom: -129px;}
                     #Workout-videos{top: 8%; margin-left: -155px;}
                     #video-tutorial{top: 42%; margin-left: -40px;}
                    
                     
-                    .first-section-box-container{flex-direction: column; justify-content: center; align-items: center; height: 100%;}
-                    .second-section-container{flex-direction: column; justify-content: center; padding: 33px; height: 100%;}
+                    .first-section-box-container{flex-direction: column; justify-content: center; align-items: center;}
+                    .second-section-container{flex-direction: column; justify-content: center; padding: 33px;}
                     .second-section-content{margin-left: 30px; padding-right: 85px;}
-                    .forth-section-container{height: 100%;}
+                   
                     .fifth-section-img-box-container{ display: grid; grid-template-columns: repeat(1,1fr); margin-left: 80px; margin-right: 80px;}
-                     .fifth-section-container{height: 100%;}
+                    
                     .fifth-section-img-box-1,
                     .fifth-section-img-box-2,
                     .fifth-section-img-box-3,
                     .fifth-section-img-box-4,
                     .fifth-section-img-box-5,
                     .fifth-section-img-box-6{margin: 0 auto; width: 100%;}
-                    .sixth-section-container{flex-direction: column; height: 100%;}
+                    .sixth-section-container{flex-direction: column;}
                     .sixth-section-text-container{flex-direction: column; align-items: flex-start; margin-top: 0px;}
                     .sixth-section-text-1{margin-left: 20px; margin-top: 44px;}
                     .sixth-section-text-2{margin-left: 20px; margin-right: 0px;}        
