@@ -62,7 +62,7 @@
 
                                                                               
                                                                               <button id="video-tutorial" class="bttn-2">
-                                                                                   <i id="bttn-2-circle" style="color: rgb(230, 83, 60); background-color: rgb(230, 83, 60); border-radius: 50%; width: 40px; height: 40px;" class="fa-regular fa-circle"></i>
+                                                                                   <i id="bttn-2-circle" class="fa-regular fa-circle"></i>
                                                                                    <div>
                                                                                     <span style="color: rgb(250, 250, 249);
                                                                                    
@@ -126,16 +126,15 @@
                                                                                 </h2>
                                                                                 <p></p>
                                                             </div>
-                                        <section class="forth-section-container">
+                                        <section class="forth-section-container"> 
                                                            
+                                                            
                                                             <div class="table-box">
-                                                                  <table>
-                                                                              
-                                                                                                    <caption style="color: rgb(255, 255, 255);
-                                                                                                    font-size: 28px;
-                                                                                                    font-weight: 900; margin-top: 52px; margin-bottom: 52px;"  >BMI Calculator Chart</caption>
+                                                                 <table>
+                                                                               <caption class="caption">BMI Calculator Chart</caption>
+                                                                                                   
                                                                                                     <tr class="table-row-1">
-                                                                                                      <th>BMI</th>
+                                                                                                      <th style="display: flex; justify-content: flex-start; align-items: center; padding-left: 20px;">BMI</th>
                                                                                                     <th>Weight Status</th></tr>
                                                                                                     <tr class="table-row-2">
                                                                                                                         <td>Below 18.5</td>
@@ -158,16 +157,24 @@
                                                                                 <div class="forth-section-calculate">
                                                                                     <h1> Calculate your BMI</h1>
                                                                                     <p></p>
-                                                                                    <div>
-                                                                                          <input type="text" name="" id="" placeholder="Height/cm">
-                                                                                          <input type="text" name="" id="" placeholder="Weight/kg">
-                                                                                    </div>
-                                                                                    <div>
-                                                                                          <input type="text" placeholder="Age">
+                                                                                    <div class="input">
+                                                                                          <input class="input-1" type="text" name="" id="" placeholder="Height/cm">
+                                                                                          <input class="input-2" type="text" name="" id="" placeholder="Weight/kg">
+                                                                                         <input class="input-3" type="text" placeholder="Age">
+                                                                                          <select class="select" name="" id="">
+                                                                                                <option  value="">Sex</option>
+                                                                                          </select>
                                                                                           
                                                                                     </div>
-                                                                                    <option value=""></option>
-                                                                                    <button class="button-1" style="width: 100%;">Calculate</button>
+                                                                                    <div>
+                                                                                          <select  class="activity-factor" name="" id="">
+                                                                                                <option value="">
+                                                                                                      Select an activity factor
+                                                                                                </option>
+                                                                                          </select>
+                                                                                    </div>
+                                                                                   
+                                                                                    <button class="button-1"  style="width: 100%; margin-top: 34px; margin-bottom: 43px;">Calculate</button>
                                                                                 
                                                             </div>
                                         </section>
@@ -216,6 +223,48 @@
                                                 </div>
                                                
                                           </div>
+                                        </section>
+                                        <section class="challange-section-container">
+                                         
+                                                <div  class="challange-section-text-1">
+                                                      <h1>PRICES & PLANS</h1>
+                                                </div> 
+                                                <div class="challange-section-text-container">
+                                                <div class="challange-section-text-2">
+                                                      <div class="month">  <h2>1 MONTH</h2>
+                                                     <h3>BDT 2000/=</h3></div>
+                                                    
+                                                <div class="included"> 
+                                                      <h4>INCLUDED</h4>
+                                              
+                                                      <li>2x group workouts of your choice</li>
+                                                      <li>Unlimited gym access</li>
+                                                      <li>Persinal workouts</li></div>
+                                               
+                                               </div> 
+                                                <div class="challange-section-text-3">
+                                                      <div class="month"> <h2>3 MONTH</h2>
+                                                      <h3>BDT 5000/=</h3></div>
+                                                    
+                                                
+                                               <div  class="included"><h4>INCLUDED</h4>
+                                               
+                                                
+                                                      <li>Unlimited group workouts of your choice</li>
+                                                      <li>Unlimited gym access</li>
+                                                      <li>3x Persinal workouts</li>
+                                                      <li>Personal nutrition plan</li>
+                                                
+                                                </div> </div>
+                                                      
+
+
+                                          </div>
+                                          <div class="input-container">
+                                                 <input type="name" placeholder="YOUR NAME" required>
+                                          <input type="email" placeholder="YOUR EMAIL" required>
+                                          <input id="submit" type="submit" placeholder="SUBMIT"></div>
+                                         
                                         </section>
                                         <section class="last-section">
                                           <div class="sixth-section-container">

@@ -40,6 +40,7 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
                         color: rgb(255, 255, 255);
                         font-size: 18px;
                         font-weight: 600;}
+                                           
 .header-content .button-2{max-width: 224px;
                           height: 54px;   
                           box-sizing: border-box;
@@ -112,34 +113,76 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600; margin-right: 0px;}
-  
+  #bttn-2-circle{color: rgb(230, 83, 60); background-color: rgb(230, 83, 60); border-radius: 50%; width: 40px; height: 40px;}
 
 .second-section-img img{width: 366px;
   height: 312px; border-radius: 18px;
   background: url(4); margin: 30px;}
-  .forth-section-content{text-align: center; max-width: 1440px; margin: 0 auto;}
+
+
+
+
+
+  .forth-section-content{text-align: center; max-width: 1440px; margin: 0 auto; }
   .forth-section-content h2{color: rgb(255, 255, 255);
     font-size: 48px;
     font-weight: 900; margin-top: 70px;}
 
-  .forth-section-container{max-width: 1440px; background: rgb(34, 34, 34); margin: 0 auto; display: flex; justify-content: space-between;}
+  .forth-section-container{max-width: 1440px; background: rgb(34, 34, 34); margin: 0 auto; display: flex; justify-content: space-between;gap: 0px;}
   .table-box{margin-bottom: 133px; margin-left: 189px;}
+  .caption{color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900; margin-top: 52px; margin-bottom: 52px; margin-left: 0px;}
   
   .table-box th{color: rgb(255, 255, 255);
     border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
     font-weight: 500; width: 155px;
-  height: 48px; padding-right: 30
-  px;}
+  height: 48px; padding-right: 30px;}
   .table-box td{border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(255, 255, 255, 0.5);
    
     font-size: 14px;
     font-weight: 400; width: 155px; height: 48px; padding-left: 18px;}
 
-    .forth-section-calculate{}
+    .forth-section-calculate{ margin: 0 auto; margin-top: 69px;}
+.forth-section-calculate .input{display: grid; grid-template-columns: repeat(2,1fr); gap: 12px;
+}
+.input-1{ max-width: 282.5px;
+  height: 48px; border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);  color: rgba(255, 255, 255, 0.6); margin-top: 34px;
+  
+  font-size: 16px;
+  font-weight: 400; }
+  .input-2{max-width:282.5px; border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);  color: rgba(255, 255, 255, 0.6); margin-top: 34px;
+  
+    font-size: 16px;
+    font-weight: 400;}
+    .input-3{border-radius: 8px;
+      background: rgba(255, 255, 255, 0.1); max-width: 282.5px; height: 48px;  color: rgba(255, 255, 255, 0.6);
+  
+      font-size: 16px;
+      font-weight: 400;}
+      .select{border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1); width: 282.5px; height: 52px;  color: rgba(255, 255, 255, 0.6);
+  
+        font-size: 16px;
+        font-weight: 400;}
+       
+.activity-factor{max-width: 577px;
+  height: 48px; border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1); margin-top: 12px; color: rgba(255, 255, 255, 0.6);
+  
+  font-size: 16px;
+  font-weight: 400; }
+  .activity-factor{width: 100%;} 
+
+  
+
 
     .forth-section-calculate h1{color: rgb(255, 255, 255);
-      font-size: 28px;
+    
+      font-size: 16px;
       font-weight: 900;}
        
       .fifth-section-container{max-width: 1060px; margin: 0 auto;}
@@ -197,6 +240,27 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
           font-size: 70px;
           font-weight: 800; width: 256px;
           height: 84px;}
+          .challange-section-container{ max-width: 1440px; margin: 0 auto;}
+          .challange-section-text-container{display: flex; justify-content: center; gap: 200px; }
+          .challange-section-text-1{display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 50px;}
+          .challange-section-text-1 h1{color: rgb(255, 255, 255);
+           
+            font-size: 48px;
+            font-weight: 900; margin-top: 50px;}
+          .month{display: flex; gap: 20px;}
+          .month{color: rgb(255, 255, 255);
+          
+            font-size: 28px;
+            font-weight: 700;}
+            .included h4{color: tomato;
+          
+              font-size: 18px;
+              font-weight: 500;}
+              .included li{color: gray;}
+              .input-container{display: flex; justify-content: center; align-items: center; gap: 20px;}
+              .challange-section-container input{width: 282px; height: 48px; border-radius: 18px; margin-top: 60px;}
+              #submit{width: 130px; height: 60px;}
+
           .last-section{ background-color: rgba(255, 255, 255, 0.1); margin: 88px auto 0; max-width: 1440px;}
         .sixth-section-content p{}
         .sixth-section-text-container{display: flex; justify-content: center; align-items: center; margin-right: 191px; margin-top: 66px;}
@@ -216,7 +280,8 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
           font-size: 20px;
           font-weight: 400;}
           .footer{padding: 35px; text-align: center;}
-         
+
+        
 
  
    
@@ -235,7 +300,7 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
       
                      
                     .header-container{ flex-direction: column; justify-content: center; align-items: center ;}
-                    .header-content{margin-top: 150px; margin-left: 0px;}
+                    .header-content{margin-top: 150px; margin-left: 20px;}
                     .header-img{margin-left: 220px; margin-bottom: -129px;}
                     #Workout-videos{top: 8%; margin-left: -155px;}
                     #video-tutorial{top: 42%; margin-left: -40px;}
@@ -260,5 +325,13 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
                     .sixth-section-text-3{margin-left: 20px;}  
                     hr{margin-left: 20px; margin-right: 20px;}      
                     .footer{text-align: start; margin-left: 20px; padding-left: 0px;}
+                    .challange-section-text-container{flex-direction: column; margin-left: 20px; gap: 50px;}
+                    .input-container{margin-left: 20px;}
+                    .forth-section-container{flex-direction: column;}
+                    .forth-section-calculate{margin-left: 20px; margin-right: 20px; margin-top: 42px; }
+                    .table-box{margin-left: 20px; margin-bottom: 0px;}
+                    .table-caption{margin-left: 20px;}
+                    
+
                    
 }
