@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+
 body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
                     font-optical-sizing: auto;
                     font-weight: 400;
                     font-style: normal;}
+                  p{color: rgba(255, 255, 255, 0.5);
+                    font-size: 14px;
+                     font-weight: 400}
 .header{ max-width: 1440px; margin: 0 auto;} 
 .nav{display: flex; justify-content: space-between; margin: 0 auto; max-width: 1440px; margin-top: 58px;}
 .nav-1{color: rgb(230, 83, 60);
                     font-size: 36px;
-                    font-weight: 800; margin-left: 190px; justify-content: center; align-items: center;}
+                    font-weight: 800; margin-left: 190px; justify-content: center; align-items: center; font-style: italic;}
 .nav-2{display: flex; justify-content: center; align-items: center; gap: 47px; margin-right: 214px;}
 .nav-2 li{list-style: none;color: rgb(255, 255, 255);
                     font-size: 18px;
@@ -25,13 +31,14 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
 
 .header-container{display: flex; justify-content: space-between; margin: 0 auto; max-width: 1440px; background: linear-gradient(to bottom, #000000, #434343, #000000);}
  
-.header-content{ max-width: 720px; margin-left: 190px;}
+.header-content{ max-width: 720px; margin-left: 190px; line-height: 50px; line-height: 120%;}
+#shape{ font-family: 'Miama', sans-serif;font-weight: 400;  color: rgb(255, 255, 255); font-size: 160px;}
 .header-content h1{color: rgb(255, 255, 255);
                    font-size:78px;
-                    font-weight: 900; margin-top: 97px;}
+                    font-weight: 900; position: relative;  line-height: 120%;}
 .header-content p{color: rgba(255, 255, 255, 0.5);
                    font-size: 16px;
-                    font-weight: 400; margin-top: 0px;}
+                    font-weight: 400; margin-top: 0px; width: 510px; padding-bottom: 28px;}
   .header-button-container{margin-left: 0px;}
 .button-1{max-width: 224px;
                         height: 54px;
@@ -79,16 +86,16 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
                     font-weight: 400; margin-left: 20px;}
                   #video-tutorial{position: absolute; top: 72%; margin-left: -110px; display: flex;}
                   
-                  #bttn-2-circle{margin-top: 23px; margin-left: 23px;}
+                  #bttn-2-circle{margin-top: 23px; margin-left: 23px; color: rgb(230, 83, 60); background-color: rgb(230, 83, 60); border-radius: 50%; width: 40px; height: 40px;}
+                  .video-play-icon{position: absolute; top: 50%; margin-left: -70px; font-size: 20px; color: white;}
 
 .first-section-container{max-width: 1044px; margin: 0 auto; margin-top: 129px;}
 .first-section-content{display: flex; flex-direction: column; justify-content: center; align-items: center;}
 .first-section-content h2{color: rgb(255, 255, 255);
                           font-size: 48px;
                            font-weight: 900;}
-.first-section-content p{color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
-  font-weight: 400; max-width: 550px; text-align: center; margin-top: 0px;}
+.first-section-content p{
+  max-width: 550px; text-align: center; margin-top: 0px;}
 
 .first-section-box-container{display: flex; gap: 40px; margin-top: 58px;}
 .first-section-box-container h3{color: rgb(255, 255, 255);
@@ -97,6 +104,7 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
   .box-2 h3{margin-left: 115px;} 
 .box-3 h3 {margin-left: 95px;}
 .box-4 h3{margin-left: 90px;}
+.box-1 p, .box-2 p, .box-3 p, .box-4 p{display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; margin-left: 40px; max-width: 200px;}
 .box-1 img, .box-2 img, .box-3 img, .box-4 img{border-radius: 50%; background: url(full-shot-man-doing-burpees-gym); margin-left: 14px; }
 .box-2 img, .box-3 img, .box-4 img{margin-left: 45px;}
 
@@ -106,6 +114,7 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
 .second-section-content h2{color: rgb(255, 255, 255);
   font-size: 48px;
   font-weight: 900;}
+  .second-section-content p{max-width: 400px; padding-bottom: 34px;}
   .second-section-button{width: 224px;
     height: 54px;
     border-radius: 42px;
@@ -113,26 +122,26 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600; margin-right: 0px;}
-  #bttn-2-circle{color: rgb(230, 83, 60); background-color: rgb(230, 83, 60); border-radius: 50%; width: 40px; height: 40px;}
 
 .second-section-img img{width: 366px;
   height: 312px; border-radius: 18px;
-  background: url(4); margin: 30px;}
+  background: url(4); margin: 30px; object-fit: none; object-position: 67% 33%;}
 
 
 
 
 
-  .forth-section-content{text-align: center; max-width: 1440px; margin: 0 auto; }
+  .forth-section-content{ max-width: 1440px; margin: 0 auto; }
   .forth-section-content h2{color: rgb(255, 255, 255);
     font-size: 48px;
-    font-weight: 900; margin-top: 70px;}
+    font-weight: 900; margin-top: 70px; margin-left: 384.5px;}
+    .forth-section-content p{margin-left: 384.5px; width: 630px;}
 
   .forth-section-container{max-width: 1440px; background: rgb(34, 34, 34); margin: 0 auto; display: flex; justify-content: space-between;gap: 0px;}
   .table-box{margin-bottom: 133px; margin-left: 189px;}
   .caption{color: rgb(255, 255, 255);
     font-size: 28px;
-    font-weight: 900; margin-top: 52px; margin-bottom: 52px; margin-left: 0px;}
+    font-weight: 900; margin-top: 52px; margin-right: 100px; margin-bottom: 52px; margin-left: 0px;}
   
   .table-box th{color: rgb(255, 255, 255);
     border: 1px solid rgba(255, 255, 255, 0.1); color: rgba(255, 255, 255, 0.5);
@@ -182,7 +191,7 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
 
     .forth-section-calculate h1{color: rgb(255, 255, 255);
     
-      font-size: 16px;
+      font-size: 28px;
       font-weight: 900;}
        
       .fifth-section-container{max-width: 1060px; margin: 0 auto;}
@@ -191,7 +200,9 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
         font-size: 48px;
         font-weight: 900;}
          .fifth-section-img-box-container{max-width: 1060px; display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; background: rgba(255, 255, 255, 0.1); 
-        padding: 20px;border-radius: 18px; margin-top: 58px;  
+        padding: 20px;border-radius: 18px; margin-top: 58px; position: relative;    grid-template-areas: 
+        "fifth-section-img-box-1 fifth-section-img-box-2 fifth-section-img-box-3"
+     "fifth-section-img-box-4 fifth-section-img-box-5 fifth-section-img-box-6"
        }
        
        .fifth-section-img-box-container h2{color: rgb(255, 255, 255);
@@ -200,6 +211,12 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
        .fifth-section-img-box-container p{color: rgba(255, 255, 255, 0.5);
         font-size: 14px;
         font-weight: 400;}
+        .fifth-section-img-box-1{grid-area: fifth-section-img-box-1;}
+        .fifth-section-img-box-2{grid-area: fifth-section-img-box-2;}
+        .fifth-section-img-box-3{grid-area: fifth-section-img-box-3;}
+        .fifth-section-img-box-4{grid-area: fifth-section-img-box-4;}
+        .fifth-section-img-box-5{grid-area: fifth-section-img-box-5;}
+        .fifth-section-img-box-6{grid-area: fifth-section-img-box-6;}
 
         .fifth-section-img-box-1,
       .fifth-section-img-box-2,
@@ -234,12 +251,7 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
         .fifth-section-text-6 {position: absolute;
                                  top: 180px;  margin-left: 10px;}
       
-        .sixth-section-container{display: flex; justify-content: space-between; max-width: 1440px; margin: 0 auto;}
-        .sixth-section-text-1 h1{color: rgb(230, 83, 60);
-         
-          font-size: 70px;
-          font-weight: 800; width: 256px;
-          height: 84px;}
+       
           .challange-section-container{ max-width: 1440px; margin: 0 auto;}
           .challange-section-text-container{display: flex; justify-content: center; gap: 200px; }
           .challange-section-text-1{display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 50px;}
@@ -262,9 +274,15 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
               #submit{width: 130px; height: 60px;}
 
           .last-section{ background-color: rgba(255, 255, 255, 0.1); margin: 88px auto 0; max-width: 1440px;}
-        .sixth-section-content p{}
+        .sixth-section-container{display: flex; justify-content: space-between; max-width: 1440px; margin: 0 auto;}
+        .sixth-section-text-1 h1{color: rgb(230, 83, 60);
+         
+          font-size: 70px;
+          font-weight: 800; width: 256px;
+          height: 84px; font-style: italic;}
         .sixth-section-text-container{display: flex; justify-content: center; align-items: center; margin-right: 191px; margin-top: 66px;}
         .sixth-section-text-1{margin-left: 151px; margin-top: 75px;}
+        .sixth-section-text-1 p{width: 443px;}
         .sixth-section-text-2{margin-right: 151px;}
         .sixth-section-text-2 h1,
       .sixth-section-text-3 h1{color: rgb(255, 255, 255);
@@ -296,28 +314,56 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
      left: 0; flex-direction: column; text-align: center; gap: 0; overflow: hidden;}
       .nav-2 li{padding: 20px; }
       .menu-icon{display: block;}
+      .header-content h1{font-size: 36px;}
       
       
                      
-                    .header-container{ flex-direction: column; justify-content: center; align-items: center ;}
+                    .header-container{ flex-direction: column; justify-content:flex-start; align-items: flex-start;}
                     .header-content{margin-top: 150px; margin-left: 20px;}
-                    .header-img{margin-left: 220px; margin-bottom: -129px;}
+                 .header-content p{width: 460px;}
+                    .header-img{margin-left: 140px; margin-bottom: -129px;}
                     #Workout-videos{top: 8%; margin-left: -155px;}
                     #video-tutorial{top: 42%; margin-left: -40px;}
+                    #shape{font-size: 70px;}
+                    .video-play-icon{ top: 48%; margin-left: 2px;}
                    
                     
                     .first-section-box-container{flex-direction: column; justify-content: center; align-items: center;}
-                    .second-section-container{flex-direction: column; justify-content: center; padding: 33px;}
-                    .second-section-content{margin-left: 30px; padding-right: 85px;}
+                    .first-section-content h2{font-size: 32px;}
+                    .first-section-content p{width: 316px;}
+                    .second-section-content p{width: 287px;}
+                    .second-section-content h2{font-size: 32px;}
+                    .second-section-button{width: 287px;}
+                    .second-section-img img{object-fit: cover; height: 170px; width: 287px;}
+                    .second-section-container{flex-direction: column; justify-content: center; align-items: center; }
+                    .second-section-content{ padding-right: 50px;}
+
+                    .forth-section-content h2{font-size: 32px; margin-left: 20px;}
+                    .forth-section-content p{width: 353px; margin-left: 20px;}
+                    .caption{font-size: 16px; margin-right: 230px;}
+                    .forth-section-calculate h1{font-size: 16px;}
                    
-                    .fifth-section-img-box-container{ display: grid; grid-template-columns: repeat(1,1fr); margin-left: 80px; margin-right: 80px;}
+                    .fifth-section-img-box-container{ display: grid; grid-template-columns: repeat(1,1fr); 
+                      grid-template-areas: 
+                     
+
+                      "fifth-section-img-box-2"
+                      "fifth-section-img-box-5"
+                     
+                      "fifth-section-img-box-3"
+                      "fifth-section-img-box-6";
+                      margin-left: 80px; margin-right: 80px;}
+
+
+                     
                     
                     .fifth-section-img-box-1,
                     .fifth-section-img-box-2,
                     .fifth-section-img-box-3,
                     .fifth-section-img-box-4,
                     .fifth-section-img-box-5,
-                    .fifth-section-img-box-6{margin: 0 auto; width: 100%;}
+                    .fifth-section-img-box-6{margin: 0 auto; width: 100%; }
+                    .fifth-section-content h2{font-size: 32px;}
                     .sixth-section-container{flex-direction: column;}
                     .sixth-section-text-container{flex-direction: column; align-items: flex-start; margin-top: 0px;}
                     .sixth-section-text-1{margin-left: 20px; margin-top: 44px;}
@@ -331,6 +377,15 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
                     .forth-section-calculate{margin-left: 20px; margin-right: 20px; margin-top: 42px; }
                     .table-box{margin-left: 20px; margin-bottom: 0px;}
                     .table-caption{margin-left: 20px;}
+                   
+                    .fifth-section-img-box-1{visibility: hidden; position: absolute;}
+                    .fifth-section-img-box-4{visibility: hidden; position: absolute;}
+                    
+                    .fifth-section-img-box-2 img{display: block; order: 1;}
+                   
+                    .fifth-section-img-box-5 img{display: block; order: 2;}
+                    .fifth-section-img-box-3 img{display: block; order: 3;}
+                    .fifth-section-img-box-6 img{display: block; order: 4;}
                     
 
                    
