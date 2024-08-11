@@ -363,7 +363,7 @@ body{background-color:  rgb(0, 0, 0);  font-family: "Inter", sans-serif;
                      
                     .header-container{ flex-direction: column; justify-content:flex-start; align-items: flex-start;}
                     .header-content{margin-top: 150px; margin-left: 20px;}
-                 .header-content p{width: 460px;}
+                 .header-content p{max-width: 460px;}
                     .header-img{margin-left: 140px; margin-bottom: -129px;}
                     #Workout-videos{top: 8%; margin-left: -155px;}
                     #video-tutorial{top: 42%; margin-left: -40px;}
