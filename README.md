@@ -1,0 +1,4 @@
+# SIMPLE SECOND ASSAIGNMET
+
+# MARK
+- 60 out of 60
